@@ -9,11 +9,10 @@
     "classnames": "^2.2.6",
     "contactmanager": "file:",
     "prop-types": "^15.8.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "uuid": "^3.3.2"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "deploy": "npm run build&&gh-pages -d build",
