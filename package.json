@@ -4,10 +4,11 @@
   "private": true,
   "homepage": "https://rajatrjsharma.github.io/cm",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^0.28.1",
     "bootstrap": "^4.6.2",
     "classnames": "^2.2.6",
     "contactmanager": "file:",
+    "prop-types": "^15.8.1",
     "react": "^16.4.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^4.3.1",
