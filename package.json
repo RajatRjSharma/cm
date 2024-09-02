@@ -5,13 +5,13 @@
   "homepage": "https://rajatrjsharma.github.io/cm",
   "dependencies": {
     "axios": "^0.28.1",
-    "bootstrap": "^4.6.2",
+    "bootstrap": "^5.3.3",
     "classnames": "^2.2.6",
     "contactmanager": "file:",
     "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "^1.1.5"
   },
   "scripts": {
