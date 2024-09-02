@@ -2,11 +2,13 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rajatrjsharma.github.io/cm",
   "dependencies": {
     "axios": "^0.28.1",
     "bootstrap": "^4.6.2",
-    "classnames": "^2.5.1",
+    "classnames": "^2.2.6",
     "contactmanager": "file:",
+    "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-redux": "^7.2.9",
@@ -16,9 +18,13 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
