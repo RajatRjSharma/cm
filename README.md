@@ -4,7 +4,9 @@
 
 - React frontend project.
 - Provides the contact list from dummy API JSONPlaceholder.
-- Features the addition, deletion, and update of the contacts.
+- Features CRUD of the contacts.
+- Used redux for state management.
+- Used react router for routing.
 - Hosted on GitHub pages.
 
 ## Before starting further please run npm install first
