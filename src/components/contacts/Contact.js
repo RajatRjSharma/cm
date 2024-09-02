@@ -37,12 +37,13 @@ class Contact extends Component {
           />
           <Link to={`contact/edit/${id}`}>
             <i
-              className="fas fa-pencil-alt"
+              className="fas fa-pencil-alt fa-xs"
               style={{
                 cursor: "pointer",
                 float: "right",
                 color: "black",
                 marginRight: "1rem",
+                marginTop: "0.2rem",
               }}
             />
           </Link>

@@ -12,11 +12,12 @@ const TextInputGroup = ({
   error
 }) => {
   return (
-    <div className="form-group">
-      <label htmlFor={name}>{label}</label>
+    <div className="mb-3">
+      <label htmlFor={name} className="form-label">{label}</label>
       <input
         type={type}
         name={name}
+        id={name}
         className={classnames('form-control form-control-lg', {
           'is-invalid': error
         })}
